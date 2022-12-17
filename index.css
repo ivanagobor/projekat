@@ -1,0 +1,350 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body { background-color: #f4c2c2;
+    margin: 0px;
+}
+#logo{
+height: 70px;
+width: 200px;
+display:flex;
+animation: ulazaklogoa;
+animation-duration: 2s;
+animation-timing-function: ease-in-out;    
+}
+@keyframes ulazaklogoa{
+    from{margin-left: 30%;}
+    to{margin-left: 0%;}
+} 
+.navimeni{
+    height: 100px;
+    width: 100%;
+    background-color: #f4c2c2;
+    display: flex;
+    justify-content: space-between;      
+    align-items: center;
+}
+.navimeni ul{
+    list-style: none; 
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+.navimeni a{
+    text-decoration: none; 
+    color:#5E5DF0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navimeni li{
+    display: inline; 
+    font-size: 25px;
+    padding: 10px 20px;
+}
+.navimeni a:hover{
+    background-color: #b7acf6;
+    color: black;
+    padding: 10px; 
+    box-shadow: #5E5DF0 0 10px 20px -10px;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.glavnidiv{
+    display: flex;
+    align-items: center;     
+    justify-content: center;  
+    height: 90vh;
+       
+}
+.slikaglavna img {
+    width: 500px;
+}
+.glavnatekst h1{
+    text-align: center; 
+    color: black;
+}
+.glavnatekst span{
+    color: #b7acf6;
+}
+.glavnatekst p{
+    text-align: center;
+    color: #db7093;
+    margin-right: 200px;       
+    font-size: 20px;
+}
+.glavnatekst button{
+    background-color: #b7acf6;
+    border:none;
+    border-radius: 999px;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 75%;     
+
+    box-shadow: #5E5DF0 0 10px 20px -10px;  
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 20px;
+  font-weight: 700;
+  padding: 8px 18px;   
+}
+.glavnatekst button a {
+    text-decoration: none;  
+    color: black;
+}
+.glavnatekst button a:hover{
+    color:white;
+}
+.glavnatekst button:hover {
+    background-color:#db7093;
+}
+
+
+.drugi{
+    align-items: center;
+}
+.drugi h2{
+    text-align: center;
+}
+.drugi h2 :hover{
+background-color: #5E5DF0;
+border-radius: 300px;
+padding: 10px 20px;     
+}
+.drugi a{
+    text-decoration: none;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+.drugi p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.treci {
+    background-image: url(milk.jpg);
+    height: 700px;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    background-color: #b7acf6;
+    border-radius: 999px;
+    padding: 20px 20px;        
+}
+footer a:hover{
+    background-color: #5E5DF0;
+    padding: 20px 20px;
+    border-radius: 999px;
+}
+
+
+
+  
+
+ .onamamain{ 
+    display: flex;
+    align-items: center; 
+    flex-direction: row; 
+    width:100%;
+    height: 80vh;
+}
+.onamaslika img {
+    width: 800px; 
+}
+.onamatekst h1 span {
+ color:#5E5DF0;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.onamatekst h1 {
+ font-size: 55px;
+ margin-bottom: 50px;      
+}
+.onamatekst h3{
+    font-size:20px;
+    margin-bottom: 50px;         
+}
+.onamatekst p {
+    width:650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;      
+}
+.onamatekst a{
+    background-color: #b7acf6;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: black;  
+    margin-left: 200px;
+}
+.onamatekst a:hover {
+    background-color: #db7093;
+    color: white;
+    box-shadow: #5E5DF0 0 10px 20px -10px; 
+}
+
+  
+
+
+
+
+.nasmeninaslov{
+    width: 100%;
+    height: 80px;
+}
+.nasmeninaslov h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.nasmeninaslov span{
+    color: #b7acf6;
+    margin-left: 15px;    
+}
+.menu{
+    width: 95%;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;       
+    grid-gap: 70px;
+}
+
+.menu_card{   
+    width: 325px;
+    height: 480px; 
+   box-shadow: 0 0 10px black;  
+   margin-left: 50px;
+}
+
+.menu_image {
+    width:300px;
+    height: 245px;
+    margin: 0 auto;   
+}
+ .menu_image img {
+    width: 60%;
+    height: 100%;
+    margin-left: 50px; 
+}
+.menu_image img:hover{
+    transform: scale(1.1);    
+    transition: 0.3s;          
+} 
+
+.menu_info h2{
+     width:60%;
+     text-align: center;
+     margin: 10px auto 10px auto;
+    font-size: 25px;
+}
+
+.menu_info p{
+    text-align: center;
+    margin-top: 15px;  
+}
+.menu_info h3 {
+    text-align: center;
+    margin-top: 25px;   
+}
+.menu_info button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b7acf6;
+    padding: 8px 10px;  
+    margin: 10px 130px;   
+    
+}
+.menu_info button a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu_info button a:hover{
+    color: white;
+}
+
+
+
+
+
+.forma{
+    width: 100%;   
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forma form{
+    width: 50%; 
+    height: 400px;  
+}
+.forma input, textarea{
+    width: 100%;
+    padding: 12px;       
+    margin-bottom: 16px;   
+}
+.forma input[type=submit]{
+    padding: 12px 20px;   
+    border: none;
+    border-radius: 20px;          
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+input[type=submit]:hover{
+    background-color: #b7acf6;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+   
+    .navimeni {
+        height: 150px;
+       display: block;  
+       margin: auto;
+    }
+    #logo {
+        display: block;        
+        margin: auto;     
+    }
+    .navimeni ul{
+        width:100%;
+        display: block;        
+       text-align: center;
+       margin-top: 25px;    
+    } 
+    .navimeni ul li {
+        display: inline;     
+       padding: 5px 10px;   
+    }
+    .forma{
+        width: 100%;
+        height: 480px;
+        background-image: url(pozadinska1.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .forma form{
+        width: 50%; 
+        height: 360px; 
+    }
+    .forma textarea:hover{
+        background-color: #918be7;
+   }
+        
+}
+
+    
+
+    
